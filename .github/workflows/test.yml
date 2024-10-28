@@ -23,6 +23,6 @@ jobs:
       - name: Install PDM
         run: pip install pdm
       - name: Install dependencies with PDM
-        run: pdm install 
+        run: pdm install -v
       - name: Run tests
         run: pdm run pytest tests/test_homework_2.py
